@@ -392,7 +392,7 @@ code > span.fu { color: #900; font-weight: bold; }  code > span.er { color: #a61
 <h2>Input a .R file</h2>
 <p>The same <code>dance_recital()</code> function can be used to analyze a .R file. Instead of including the code as a character string, pass the <em>path</em> of the .R file. An example file is included in this package.</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" data-line-number="1">(file &lt;-<span class="st"> </span><span class="kw">system.file</span>(<span class="st">&quot;test&quot;</span>, <span class="st">&quot;sample_code.R&quot;</span>, <span class="dt">package =</span> <span class="st">&quot;matahari&quot;</span>))</a>
-<a class="sourceLine" id="cb8-2" data-line-number="2"><span class="co">#&gt; [1] &quot;/private/var/folders/zw/l4fv__6n4tnbk3xb31dnbt5m0000gn/T/RtmpKpQSYD/Rinst8b2b49124d24/matahari/test/sample_code.R&quot;</span></a></code></pre></div>
+<a class="sourceLine" id="cb8-2" data-line-number="2"><span class="co">#&gt; [1] &quot;/private/var/folders/zw/l4fv__6n4tnbk3xb31dnbt5m0000gn/T/RtmpjzATol/Rinste363a883aad/matahari/test/sample_code.R&quot;</span></a></code></pre></div>
 <div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" data-line-number="1"><span class="kw">dance_recital</span>(file)</a>
 <a class="sourceLine" id="cb9-2" data-line-number="2"><span class="co">#&gt; # A tibble: 7 x 6</span></a>
 <a class="sourceLine" id="cb9-3" data-line-number="3"><span class="co">#&gt;   expr       value     error      output    warnings  messages </span></a>

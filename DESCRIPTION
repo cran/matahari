@@ -1,7 +1,7 @@
 Package: matahari
 Type: Package
 Title: Spy on Your R Session
-Version: 0.1.2
+Version: 0.1.3
 Authors@R: c(
     person("Sean", "Kross", email = "sean@seankross.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-5215-0316")),
     person("Lucy", "D'Agostino McGowan", email = "lucydagostino@gmail.com", role = "aut", comment = c(ORCID = "0000-0001-7297-9359")),
@@ -17,14 +17,14 @@ License: MIT + file LICENSE
 URL: https://github.com/jhudsl/matahari
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.2
 BugReports: https://github.com/jhudsl/matahari/issues
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2019-12-10 19:53:26 UTC; lucymcgowan
+Packaged: 2020-02-06 07:49:48 UTC; sean
 Author: Sean Kross [aut, cre] (<https://orcid.org/0000-0001-5215-0316>),
   Lucy D'Agostino McGowan [aut] (<https://orcid.org/0000-0001-7297-9359>),
   Jeff Leek [ldr] (<https://orcid.org/0000-0002-2873-2671>)
 Maintainer: Sean Kross <sean@seankross.com>
 Repository: CRAN
-Date/Publication: 2019-12-10 20:50:08 UTC
+Date/Publication: 2020-02-06 10:30:02 UTC

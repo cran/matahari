@@ -15,6 +15,7 @@ dance_recital(code, evaluate = TRUE)
 Create a matahari-esque data frame from a file.
 }
 \examples{
+\dontrun{
 
 library(knitr)
 
@@ -39,4 +40,5 @@ kable(dance_recital(code_file)[,1:3])
 ## |warning("Warning!") |Warning! |NULL                                     |
 ## |message("Hello?")   |NULL     |NULL                                     |
 ## |cat("Welcome!")     |NULL     |NULL                                     |
+}
 }
